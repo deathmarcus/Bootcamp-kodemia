@@ -1,0 +1,49 @@
+
+.element{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.uno {
+    background-color: orange;
+
+}
+.dos {
+    background-color: limegreen;
+}
+
+.tres {
+    background-color: lightpink;
+}
+@media only screen and (min-width:768px){
+    .element{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-right: 10px;
+        
+        
+    }
+    .uno {
+        background-color: lightpink;
+    
+    }
+    .dos {
+        background-color: limegreen;
+    }
+    
+    .tres {
+        background-color: orange;
+    }
+}
+@media only screen and (min-width:1200px){
+    .element{
+        width: 200px;
+        flex-direction: row;
+
+     
+    }
+}

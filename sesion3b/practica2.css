@@ -1,0 +1,47 @@
+.bandera{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+
+.colorblue{
+    background-color: blue;
+    flex-grow: 1;
+    
+}
+.colorwhite{
+    background-color: white;
+    flex-grow: 1;
+    
+}
+.colorred{
+    background-color: red;
+    flex-grow: 1;
+    
+}
+
+.banderasuecia{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    background-color: yellow;
+    
+}
+.azulizq{
+    background-color: rgba(36, 107, 201, 0.877);
+    flex-basis: 10%;
+}
+
+.azulder{
+    background-color: rgba(36, 107, 201, 0.877);
+    flex-basis: 20%;
+
+}
+.amarillo{
+    background-color: yellow;
+    flex-basis: 10%;
+}

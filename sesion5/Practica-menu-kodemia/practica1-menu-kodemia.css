@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 68px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header nav{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+header nav .logo{
+    max-width: 135px;
+
+}
+header nav .logo img{
+    width: 100%;
+}
+header nav .menu-items .menu-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+header nav .ctas .cta{
+    padding: 0.25rem .5rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+header nav .ctas .cta{
+    background-color: azure;
+    cursor: pointer;
+    
+}
+

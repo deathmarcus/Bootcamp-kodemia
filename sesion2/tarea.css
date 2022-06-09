@@ -1,0 +1,20 @@
+header{
+    background-color: rgb(238, 238, 89);
+    height:270px;
+}
+main{
+    background-color: rgb(185, 185, 185);
+}
+
+.login-box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-left: 40%;
+
+}
