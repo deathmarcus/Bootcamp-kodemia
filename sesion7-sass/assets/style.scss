@@ -1,0 +1,51 @@
+$card-color: #377;
+$secondary: tomato;
+
+@mixin base-button-props {
+    padding: .5rem 1rem;
+    min-width: 200px;
+    border: 2px solid $card-color;
+    border-radius: .5rem;
+}
+
+.btn{
+    @include base-button-props;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    padding: 1rem;
+    background: $card-color;
+}
+.card1{
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    padding: 1rem;
+    background: $secondary;
+}
+.container{
+    background: #aaa;
+    height: 800px;
+    ul{
+        li{
+            padding: .5rem;
+            &.primary{
+                background: #377;
+            }
+            &.secondary{
+                background: $secondary;
+            }
+        }
+        + a{
+            @include base-button-props;
+            padding: 1rem;
+            background-color: aqua;
+            &:hover{
+                background: green;
+            }
+
+        }
+    }
+}

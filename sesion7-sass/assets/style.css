@@ -1,0 +1,53 @@
+.btn {
+  padding: .5rem 1rem;
+  min-width: 200px;
+  border: 2px solid #377;
+  border-radius: .5rem;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  padding: 1rem;
+  background: #377;
+}
+
+.card1 {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  padding: 1rem;
+  background: tomato;
+}
+
+.container {
+  background: #aaa;
+  height: 800px;
+}
+
+.container ul li {
+  padding: .5rem;
+}
+
+.container ul li.primary {
+  background: #377;
+}
+
+.container ul li.secondary {
+  background: tomato;
+}
+
+.container ul + a {
+  padding: .5rem 1rem;
+  min-width: 200px;
+  border: 2px solid #377;
+  border-radius: .5rem;
+  padding: 1rem;
+  background-color: aqua;
+}
+
+.container ul + a:hover {
+  background: green;
+}
+/*# sourceMappingURL=style.css.map */
