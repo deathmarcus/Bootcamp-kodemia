@@ -20,6 +20,12 @@ $card-height:100%;
     background-color: hsl(0, 0%, 95%);
     color: hsl(31, 77%, 52%);
     border-radius: 25px;
+
+    &:hover{
+        border: solid hsl(0, 0%, 95%);
+        border-width: 0.5px;
+        color: hsl(0, 0%, 95%);
+    }
   
 }
 .button-learn2{
@@ -27,31 +33,27 @@ $card-height:100%;
     background-color: hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
     border-radius: 25px;
+
+    &:hover{
+        border: solid hsl(0, 0%, 95%);
+        border-width: 0.5px;
+        color: hsl(0, 0%, 95%);
+    }
 }
 .button-learn3{
     font-weight: 400;
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
     border-radius: 25px;
+
+    &:hover{
+        border: solid hsl(0, 0%, 95%);
+        border-width: 0.5px;
+        color: hsl(0, 0%, 95%);
+
+    }
 }
-.button-learn1:hover{
-    border: solid hsl(0, 0%, 95%);
-    border-width: 0.5px;
-    color: hsl(0, 0%, 95%);
-    
-}
-.button-learn2:hover{
-    border: solid hsl(0, 0%, 95%);
-    border-width: 0.5px;
-    color: hsl(0, 0%, 95%);
-    
-}
-.button-learn3:hover{
-    border: solid hsl(0, 0%, 95%);
-    border-width: 0.5px;
-    color: hsl(0, 0%, 95%);
-    
-}
+
 .card-title{
     font-family: 'Big Shoulders Display';
     font-weight: 700;

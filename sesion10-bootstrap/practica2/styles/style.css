@@ -25,6 +25,12 @@
   border-radius: 25px;
 }
 
+.button-learn1:hover {
+  border: solid #f2f2f2;
+  border-width: 0.5px;
+  color: #f2f2f2;
+}
+
 .button-learn2 {
   font-weight: 400;
   background-color: #f2f2f2;
@@ -32,23 +38,17 @@
   border-radius: 25px;
 }
 
+.button-learn2:hover {
+  border: solid #f2f2f2;
+  border-width: 0.5px;
+  color: #f2f2f2;
+}
+
 .button-learn3 {
   font-weight: 400;
   background-color: #f2f2f2;
   color: #004241;
   border-radius: 25px;
-}
-
-.button-learn1:hover {
-  border: solid #f2f2f2;
-  border-width: 0.5px;
-  color: #f2f2f2;
-}
-
-.button-learn2:hover {
-  border: solid #f2f2f2;
-  border-width: 0.5px;
-  color: #f2f2f2;
 }
 
 .button-learn3:hover {
