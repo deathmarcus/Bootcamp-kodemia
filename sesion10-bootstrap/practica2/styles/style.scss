@@ -1,7 +1,9 @@
+$card-height:100%;
 .image{
         width: 10%!important;
         height: 10%!important;
         object-fit: cover;
+        margin-bottom: 0!important;
 }
 .card1{
     background-color: hsl(31, 77%, 52%);
@@ -33,20 +35,20 @@
     border-radius: 25px;
 }
 .button-learn1:hover{
-    border: solid hsl(0, 0%, 95%)!important;
-    border-width: 0.5px!important;
+    border: solid hsl(0, 0%, 95%);
+    border-width: 0.5px;
     color: hsl(0, 0%, 95%);
     
 }
 .button-learn2:hover{
-    border: solid hsl(0, 0%, 95%)!important;
-    border-width: 0.5px!important;
+    border: solid hsl(0, 0%, 95%);
+    border-width: 0.5px;
     color: hsl(0, 0%, 95%);
     
 }
 .button-learn3:hover{
-    border: solid hsl(0, 0%, 95%)!important;
-    border-width: 0.5px!important;
+    border: solid hsl(0, 0%, 95%);
+    border-width: 0.5px;
     color: hsl(0, 0%, 95%);
     
 }
@@ -61,4 +63,21 @@
     font-weight: 400;
     font-size: 15px;
     color: hsla(0, 0%, 100%, 0.75);
+}
+.footer1{
+    background-color: hsl(31, 77%, 52%);
+    border-top: none;
+    margin-bottom: 10px;
+}
+.footer2{
+    background-color: hsl(184, 100%, 22%);;
+    border-top: none;
+    margin-bottom: 10px;
+
+}
+.footer3{
+    background-color: hsl(179, 100%, 13%);
+    border-top: none;
+    margin-bottom: 10px;
+
 }

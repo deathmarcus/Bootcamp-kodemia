@@ -3,6 +3,7 @@
   height: 10% !important;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-bottom: 0 !important;
 }
 
 .card1 {
@@ -39,20 +40,20 @@
 }
 
 .button-learn1:hover {
-  border: solid #f2f2f2 !important;
-  border-width: 0.5px !important;
+  border: solid #f2f2f2;
+  border-width: 0.5px;
   color: #f2f2f2;
 }
 
 .button-learn2:hover {
-  border: solid #f2f2f2 !important;
-  border-width: 0.5px !important;
+  border: solid #f2f2f2;
+  border-width: 0.5px;
   color: #f2f2f2;
 }
 
 .button-learn3:hover {
-  border: solid #f2f2f2 !important;
-  border-width: 0.5px !important;
+  border: solid #f2f2f2;
+  border-width: 0.5px;
   color: #f2f2f2;
 }
 
@@ -68,5 +69,23 @@
   font-weight: 400;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.75);
+}
+
+.footer1 {
+  background-color: #e38826;
+  border-top: none;
+  margin-bottom: 10px;
+}
+
+.footer2 {
+  background-color: #006970;
+  border-top: none;
+  margin-bottom: 10px;
+}
+
+.footer3 {
+  background-color: #004241;
+  border-top: none;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
