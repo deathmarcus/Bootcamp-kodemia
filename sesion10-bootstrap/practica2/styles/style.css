@@ -1,0 +1,19 @@
+.image {
+  width: 10% !important;
+  height: 10% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card1 {
+  background-color: #e38826;
+}
+
+.card2 {
+  background-color: #006970;
+}
+
+.card3 {
+  background-color: #004241;
+}
+/*# sourceMappingURL=style.css.map */
