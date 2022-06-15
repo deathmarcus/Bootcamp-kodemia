@@ -1,8 +1,17 @@
+
 $card-height:100%;
+
+.container{
+    max-width: 960px;
+}
+.card-img-top{
+   min-height: 50px!important;
+
+}
 .image{
-        width: 10%!important;
-        height: 10%!important;
-        object-fit: cover;
+        width: 20%!important;
+        height: 15%!important;
+        object-fit: contain;
         margin-bottom: 0!important;
 }
 .card1{
