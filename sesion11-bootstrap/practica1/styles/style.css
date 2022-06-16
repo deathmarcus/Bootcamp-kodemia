@@ -1,0 +1,39 @@
+.sec2 {
+  background-color: #fafafa;
+  margin: auto;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.text-sec2 {
+  text-align: center;
+}
+
+.text-sec2 h3 {
+  font-weight: 400;
+  color: #4E505C;
+  font-size: xx-large;
+  margin-bottom: 15px;
+  padding-top: 50px;
+}
+
+.cards-sec2 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 80px;
+  height: 80px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card {
+  background-color: #fafafa;
+  padding: 10px;
+  border: none;
+}
+
+.text-c-sec2 {
+  color: #A6A6AE;
+  font-weight: 300;
+}
+/*# sourceMappingURL=style.css.map */

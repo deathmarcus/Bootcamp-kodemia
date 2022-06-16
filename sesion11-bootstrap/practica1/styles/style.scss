@@ -1,0 +1,37 @@
+.sec2{
+    background-color: hsl(0, 0%, 98%);
+    margin: auto;
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.text-sec2{
+    h3{
+        font-weight: 400;
+        color: #4E505C;
+        font-size: xx-large;
+        margin-bottom: 15px;
+        padding-top: 50px;
+    }
+    text-align: center;
+
+
+}
+.cards-sec2{
+    img{
+        object-fit: contain;
+        width: 80px;
+        height: 80px;
+        align-self: center;
+    }
+
+}
+.card{
+    background-color: hsl(0, 0%, 98%);
+    padding: 10px;
+    border: none;
+}
+.text-c-sec2{
+    color: #A6A6AE;
+    font-weight: 300;
+}
